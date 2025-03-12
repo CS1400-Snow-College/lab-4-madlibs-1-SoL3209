@@ -1,1 +1,63 @@
-﻿
+﻿string adjective1;
+string adjective2;
+string noun1;
+string noun2;
+string pluralnoun1;
+string game;
+string pluralnoun2;
+string verb1;
+string verb2;
+string pluralnoun3;
+string verb3;
+string noun3;
+string plant;
+string potb;
+string place;
+string verb4;
+string adjective3;
+string number;
+string pluralnoun4;
+
+Console.WriteLine(@"This is Mad Libs. Provide the requested words, and I will build them into a funny story for you.
+Enter the requested word types when asked. Do not use punctuation.
+
+Give me an adjective:");
+adjective1 = Console.ReadLine();
+Console.WriteLine("Give me an adjective:");
+adjective2 = Console.ReadLine();
+Console.WriteLine("Give me a noun:");
+noun1 = Console.ReadLine();
+Console.WriteLine("Give me a noun:");
+noun2 = Console.ReadLine();
+Console.WriteLine("Give me a plural noun:");
+pluralnoun1 = Console.ReadLine();
+Console.WriteLine("Give me the name of a game:");
+game = Console.ReadLine();
+Console.WriteLine("Give me a plural noun:");
+pluralnoun2 = Console.ReadLine();
+Console.WriteLine("Give me a verb ending in 'ing':");
+verb1 = Console.ReadLine();
+Console.WriteLine("Give me a verb ending in 'ing':");
+verb2 = Console.ReadLine();
+Console.WriteLine("Give me a plural noun:");
+pluralnoun3 = Console.ReadLine();
+Console.WriteLine("Give me a verb ending in 'ing':");
+verb3 = Console.ReadLine();
+Console.WriteLine("Give me a noun:");
+noun3 = Console.ReadLine();
+Console.WriteLine("Give me a plant:");
+plant = Console.ReadLine();
+Console.WriteLine("Give me a part of the body:");
+potb = Console.ReadLine();
+Console.WriteLine("Give me a place:");
+place = Console.ReadLine();
+Console.WriteLine("Give me a verb ending in 'ing':");
+verb4 = Console.ReadLine();
+Console.WriteLine("Give me an adjective:");
+adjective3 = Console.ReadLine();
+Console.WriteLine("Give me a number:");
+number = Console.ReadLine();
+Console.WriteLine("Give me a plural noun:");
+pluralnoun4 = Console.ReadLine();
+
+Console.WriteLine($"A vacation is when you take a trip to some {adjective1} place with your {adjective2} family. Usually, you go to some place that is near a/an {noun1} or up on a/an {noun2}. A good vacation place is one where you can ride {pluralnoun1}, play {game}, or go hunting for {pluralnoun2}. I  like to spend my time {verb1} or {verb2}. When parents go on a vacation, they spend their time eating three {pluralnoun3} a day. Fathers play golf, and mothers sit around {verb3}. Last summer, my little brother fell in a/an {noun3} and got poison {plant} all over his {potb}. My family is going to go to {place} and I will practice {verb4}. Parents need vacations more than kids because parents are always very {adjective3} and because they have to work {number} hours every day all year making {pluralnoun3} to pay for the vacation.");
